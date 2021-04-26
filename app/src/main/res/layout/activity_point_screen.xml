@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".PointScreen">
 <LinearLayout android:layout_width="match_parent"
     android:layout_height="50dp"
@@ -11,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="@string/onMap"
+        android:text="@string/toMainMenu"
         android:background="@color/white"/>
     <TextView
         android:layout_width="2dp"
@@ -20,16 +21,53 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="@string/onMap"
+        android:text="@string/previousPoint"
+        android:id="@+id/previous"
         android:background="@color/white"/>
     <TextView
         android:layout_width="2dp"
         android:layout_height="match_parent"
         android:background="@color/black"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text="@string/onMap"
+        android:text="@string/toMap"
     android:background="@color/white"/>
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/nextPoint"
+        android:id="@+id/next"
+        android:background="@color/white"/>
 </LinearLayout>
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:id="@+id/img"
+            android:scaleType="centerCrop"
+            android:src="@drawable/karta_nov" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:background="@drawable/my_gardient"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:id="@+id/text"
+                android:layout_height="300dp"
+                android:text="@string/obj1"
+                />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

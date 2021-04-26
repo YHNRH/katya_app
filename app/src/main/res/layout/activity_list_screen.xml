@@ -6,12 +6,16 @@
     android:layout_height="match_parent"
     android:background="@color/green"
     tools:context=".ListScreen">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <TextView
             android:layout_height="100dp"
+            android:id="@+id/p1"
             android:layout_width="match_parent"
             android:background="@color/white"
             android:text="Tochka 1"
@@ -24,6 +28,7 @@
             android:layout_height="100dp"
             android:layout_width="match_parent"
             android:background="@color/white"
+            android:id="@+id/p2"
             android:text="Tochka 2"
             />
         <TextView
@@ -36,7 +41,108 @@
             android:layout_width="match_parent"
             android:background="@color/white"
             android:text="Tochka 0"
+            android:id="@+id/p3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:text="Tochka 2"
+            android:id="@+id/p4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:id="@+id/p5"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:text="Tochka 2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:text="Tochka 2"
+            android:id="@+id/p6"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:id="@+id/p7"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:text="Tochka 2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:id="@+id/p8"
+            android:text="Tochka 2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:id="@+id/p9"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:text="Tochka 2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:text="Tochka 2"
+            android:id="@+id/p10"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:id="@+id/p11"
+            android:text="Tochka 2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:id="@+id/p12"
+            android:background="@color/white"
+            android:text="Tochka 2"
             />
     </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
