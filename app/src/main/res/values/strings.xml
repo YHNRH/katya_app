@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KatyaAppJava</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title">Экотропа <br />"Легенды старой Пустыни"</string>
+
+    <string name="start">Начать маршрут</string>
+
+    <string name="onMap">Точки на карте</string>
+
+    <string name="list">Точки списком</string>
+</resources>
