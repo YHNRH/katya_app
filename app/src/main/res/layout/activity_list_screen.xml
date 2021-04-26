@@ -15,9 +15,27 @@
         android:orientation="vertical">
         <TextView
             android:layout_height="100dp"
+            android:id="@+id/p0"
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:text="Tochka 1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_height="100dp"
             android:id="@+id/p1"
             android:layout_width="match_parent"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 1"
             />
         <TextView
@@ -26,8 +44,26 @@
             android:background="@color/black"/>
         <TextView
             android:layout_height="100dp"
+            android:id="@+id/p1_1"
             android:layout_width="match_parent"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="Tochka 1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:id="@+id/p2"
             android:text="Tochka 2"
             />
@@ -39,18 +75,39 @@
         <TextView
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
-            android:text="Tochka 0"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"            android:text="Tochka 0"
             android:id="@+id/p3"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="@color/black"/>
+
+        <TextView
+            android:layout_height="100dp"
+            android:id="@+id/p3_1"
+            android:layout_width="match_parent"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="Tochka 1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+
         <TextView
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 2"
             android:id="@+id/p4"
             />
@@ -62,7 +119,9 @@
             android:id="@+id/p5"
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 2"
             />
         <TextView
@@ -72,7 +131,9 @@
         <TextView
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 2"
             android:id="@+id/p6"
             />
@@ -84,8 +145,10 @@
             android:layout_height="100dp"
             android:id="@+id/p7"
             android:layout_width="match_parent"
-            android:background="@color/white"
-            android:text="Tochka 2"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"            android:text="Tochka 2"
             />
         <TextView
             android:layout_width="match_parent"
@@ -94,7 +157,10 @@
         <TextView
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:id="@+id/p8"
             android:text="Tochka 2"
             />
@@ -102,11 +168,31 @@
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="@color/black"/>
+
+        <TextView
+            android:layout_height="100dp"
+            android:id="@+id/p8_1"
+            android:layout_width="match_parent"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="Tochka 2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+
         <TextView
             android:layout_height="100dp"
             android:id="@+id/p9"
             android:layout_width="match_parent"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 2"
             />
         <TextView
@@ -116,7 +202,10 @@
         <TextView
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 2"
             android:id="@+id/p10"
             />
@@ -127,10 +216,29 @@
         <TextView
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:id="@+id/p11"
             android:text="Tochka 2"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_height="100dp"
+            android:id="@+id/p11_1"
+            android:layout_width="match_parent"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="Tochka 2"
+            />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="2dp"
@@ -139,7 +247,10 @@
             android:layout_height="100dp"
             android:layout_width="match_parent"
             android:id="@+id/p12"
-            android:background="@color/white"
+
+            android:textSize="30sp"
+            android:background="@color/green"
+            android:gravity="center"
             android:text="Tochka 2"
             />
     </LinearLayout>

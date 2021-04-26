@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class PointScreen extends AppCompatActivity {
-    private int obj =1;
+    private int obj = 0;
     TextView tw;
     ImageView iw;
     TextView next;
@@ -26,7 +26,33 @@ public class PointScreen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(obj!=12) {
-                    obj++;
+                    switch (obj){
+                        case 1:
+                            obj=101;
+                            break;
+                        case 101:
+                            obj=2;
+                            break;
+                        case 3:
+                            obj=301;
+                            break;
+                        case 301:
+                            obj=4;
+                            break;
+                        case 8:
+                            obj = 801;
+                            break;
+                        case 801:
+                            obj = 9;
+                        case 11:
+                            obj = 1101;
+                            break;
+                        case 1101:
+                            obj = 12;
+                            break;
+                        default:
+                            obj++;
+                    }
                     setTextAndImg();
                 }
             }
@@ -34,9 +60,34 @@ public class PointScreen extends AppCompatActivity {
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(obj!=1) {
-                    obj--;
-                    setTextAndImg();
+                if(obj!=0) {
+                    switch (obj){
+                        case 2:
+                            obj=101;
+                            break;
+                        case 101:
+                            obj=1;
+                            break;
+                        case 4:
+                            obj=301;
+                            break;
+                        case 301:
+                            obj=3;
+                            break;
+                        case 9:
+                            obj = 801;
+                            break;
+                        case 801:
+                            obj = 8;
+                        case 12:
+                            obj = 1101;
+                            break;
+                        case 1101:
+                            obj = 11;
+                            break;
+                        default:
+                            obj--;
+                    }setTextAndImg();
                 }
             }
         });
@@ -44,6 +95,30 @@ public class PointScreen extends AppCompatActivity {
     }
     private void setTextAndImg(){
         switch (obj){
+            case 0:
+                tw.setText(R.string.obj0);
+                iw.setImageResource(R.drawable.obj0);
+                break;
+            case 101:
+                tw.setText(R.string.obj1_1);
+                iw.setImageResource(R.drawable.obj1_1);
+                break;
+
+            case 301:
+                tw.setText(R.string.obj3_1);
+                iw.setImageResource(R.drawable.obj3_1);
+                break;
+
+            case 801:
+                tw.setText(R.string.obj8_1);
+                iw.setImageResource(R.drawable.obj8_1);
+                break;
+
+            case 1101:
+                tw.setText(R.string.obj11_1);
+                iw.setImageResource(R.drawable.obj11_1);
+                break;
+
             case 1:
                 tw.setText(R.string.obj1);
                 iw.setImageResource(R.drawable.obj1);

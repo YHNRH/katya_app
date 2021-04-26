@@ -9,6 +9,13 @@ import java.util.ArrayList;
 
 public class ListScreen extends AppCompatActivity {
 
+    TextView tw0;
+
+    TextView tw1_1;
+    TextView tw3_1;
+    TextView tw8_1;
+    TextView tw11_1;
+
     TextView tw1;
     TextView tw2;
     TextView tw3;
@@ -26,6 +33,12 @@ public class ListScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_screen);
+        tw0 = findViewById(R.id.p0);
+        tw3_1= findViewById(R.id.p3_1);
+        tw1_1= findViewById(R.id.p1_1);
+        tw8_1 = findViewById(R.id.p8_1);
+        tw11_1 = findViewById(R.id.p11_1);
+
         tw1 = findViewById(R.id.p1);
         tw2= findViewById(R.id.p2);
         tw3 = findViewById(R.id.p3);
@@ -51,5 +64,10 @@ public class ListScreen extends AppCompatActivity {
         tw11.setText(R.string.nobj11);
         tw12.setText(R.string.nobj12);
 
+        tw0.setText("Характеристика маршрута");
+        tw1_1.setText("Информация по маршруту 1");
+        tw3_1.setText("Информация по маршруту 2");
+        tw8_1.setText("Информация по маршруту 3");
+        tw11_1.setText("Информация по маршруту 4");
     }
 }

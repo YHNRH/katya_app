@@ -18,11 +18,24 @@
     <TextView
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="30dp"
+        android:textSize="40sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/title"
+        android:text="@string/title1"
         android:textColor="@color/white"
         />
+    <TextView
+        android:layout_marginTop="150dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:onClick="toMenu"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Старт"
+        android:textSize="35sp"/>
 
 </FrameLayout>
