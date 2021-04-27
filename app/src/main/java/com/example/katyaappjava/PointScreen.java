@@ -17,44 +17,42 @@ public class PointScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_point_screen);
+        obj = getIntent().getIntExtra("point", 0);
         tw = findViewById(R.id.text);
         iw = findViewById(R.id.img);
         next = findViewById(R.id.next);
         prev = findViewById(R.id.previous);
         setTextAndImg();
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(obj!=12) {
-                    switch (obj){
-                        case 1:
-                            obj=101;
-                            break;
-                        case 101:
-                            obj=2;
-                            break;
-                        case 3:
-                            obj=301;
-                            break;
-                        case 301:
-                            obj=4;
-                            break;
-                        case 8:
-                            obj = 801;
-                            break;
-                        case 801:
-                            obj = 9;
-                        case 11:
-                            obj = 1101;
-                            break;
-                        case 1101:
-                            obj = 12;
-                            break;
-                        default:
-                            obj++;
-                    }
-                    setTextAndImg();
+        next.setOnClickListener(v -> {
+            if(obj!=12) {
+                switch (obj){
+                    case 1:
+                        obj=101;
+                        break;
+                    case 101:
+                        obj=2;
+                        break;
+                    case 3:
+                        obj=301;
+                        break;
+                    case 301:
+                        obj=4;
+                        break;
+                    case 8:
+                        obj = 801;
+                        break;
+                    case 801:
+                        obj = 9;
+                    case 11:
+                        obj = 1101;
+                        break;
+                    case 1101:
+                        obj = 12;
+                        break;
+                    default:
+                        obj++;
                 }
+                setTextAndImg();
             }
         });
         prev.setOnClickListener(new View.OnClickListener() {

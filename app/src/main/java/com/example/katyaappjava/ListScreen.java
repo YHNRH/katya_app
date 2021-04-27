@@ -2,7 +2,10 @@ package com.example.katyaappjava;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -69,5 +72,97 @@ public class ListScreen extends AppCompatActivity {
         tw3_1.setText("Информация по маршруту 2");
         tw8_1.setText("Информация по маршруту 3");
         tw11_1.setText("Информация по маршруту 4");
+    }
+
+    public void toPoint0(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 0);
+        startActivity(intent);
+    }
+    public void toPoint1(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 1);
+        startActivity(intent);
+    }
+    public void toPoint2(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 2);
+        startActivity(intent);
+    }
+    public void toPoint3(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 3);
+        startActivity(intent);
+    }
+    public void toPoint4(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 4);
+        startActivity(intent);
+    }
+    public void toPoint5(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 5);
+        startActivity(intent);
+    }
+    public void toPoint6(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 6);
+        startActivity(intent);
+    }
+    public void toPoint7(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 7);
+        startActivity(intent);
+    }
+    public void toPoint8(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 8);
+        startActivity(intent);
+    }
+    public void toPoint9(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 9);
+        startActivity(intent);
+    }
+    public void toPoint10(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 10);
+        startActivity(intent);
+    }
+    public void toPoint11(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 11);
+        startActivity(intent);
+    }
+    public void toPoint12(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 12);
+        startActivity(intent);
+    }
+    public void toPoint13(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 13);
+        startActivity(intent);
+    }
+    public void toPoint101(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 101);
+        startActivity(intent);
+    }
+    public void toPoint301(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 301);
+        startActivity(intent);
+    }
+
+    public void toPoint801(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 801);
+        startActivity(intent);
+    }
+    public void toPoint1101(View v){
+        Intent intent = new Intent(this, PointScreen.class);
+        intent.putExtra("point", 1101);
+        startActivity(intent);
     }
 }
